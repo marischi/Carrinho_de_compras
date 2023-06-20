@@ -125,10 +125,15 @@ header {
 }
 
 aside {
-  background-color: #3f4549;
+  background-color: #9ccbe6;
   width: 0vw;
   overflow-x: hidden;
   font-family: "Hepta Slab", Helvetica, Arial;
+  transition: all ease 0.2s;
+}
+
+aside.show {
+  width: 30vw;
 }
 
 .cart-area {
